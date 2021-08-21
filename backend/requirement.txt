@@ -1,0 +1,3 @@
+graphene-django==2.14.0
+django
+django-cors-headers==3.6.0
