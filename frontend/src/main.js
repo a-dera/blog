@@ -1,6 +1,8 @@
 import router from '@/router'
+import { createProvider } from './vue-apollo'
 
 new Vue({
-    router,
-  })
+  apolloProvider: createProvider(),
+  router
+})
   
