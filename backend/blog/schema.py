@@ -1,3 +1,4 @@
+
 from django.contrib.auth import get_user_model
 from graphene_django import DjangoObjectType
 
@@ -60,5 +61,5 @@ class Query(graphene.ObjectType):
             .select_related("author")
             .filter(tags__name__iexact=tag)
         )
-        
+
 schema = graphene.Schema(query=Query)
