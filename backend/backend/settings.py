@@ -59,7 +59,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = ("http://localhost:8080",) #le port du front, pour dire à django d'écouter uniquement de ce côté
+CORS_ORIGIN_WHITELIST = ("http://localhost:8082",) #le port du front, pour dire à django d'écouter uniquement de ce côté
 
 
 ROOT_URLCONF = 'backend.urls'

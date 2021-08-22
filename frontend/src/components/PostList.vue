@@ -24,7 +24,6 @@
 
 <script>
 import AuthorLink from '@/components/AuthorLink'
-
 export default {
   name: 'PostList',
   components: {
@@ -48,10 +47,7 @@ export default {
   },
   methods: {
     displayableDate (date) {
-      return new Intl.DateTimeFormat(
-        'en-US',
-        { dateStyle: 'full' },
-      ).format(new Date(date))
+      return new Intl.DateTimeFormat('en-US', { dateStyle: 'full' }).format(new Date(date))
     }
   },
 }
@@ -61,21 +57,17 @@ export default {
 .post-list {
   list-style: none;
 }
-
 .post {
   border-bottom: 1px solid #ccc;
   padding-bottom: 1rem;
 }
-
 .post__title {
   font-size: 1.25rem;
 }
-
 .post__description {
   color: #777;
   font-style: italic;
 }
-
 .post__tags {
   list-style: none;
   font-weight: bold;

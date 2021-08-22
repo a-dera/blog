@@ -6,17 +6,34 @@
 </template>
 
 <script>
+import gql from 'graphql-tag'
 import PostList from '@/components/PostList'
-
 export default {
   name: 'AllPosts',
   components: {
     PostList,
   },
-  data () {
-    return {
-        allPosts: null,
-    }
+  apollo: {
+    allPosts: gql`query {
+      allPosts {
+        title
+        subtitle
+        publishDate
+        published
+        metaDescription
+        slug
+        author {
+          user {
+            username
+            firstName
+            lastName
+          }
+        }
+        tags {
+          name
+        }
+      }
+    }`,
   },
 }
 </script>

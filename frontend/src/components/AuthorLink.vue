@@ -15,11 +15,7 @@ export default {
   },
   computed: {
     displayName () {
-      return (
-        this.author.user.firstName &&
-        this.author.user.lastName &&
-        `${this.author.user.firstName} ${this.author.user.lastName}`
-      ) || `${this.author.user.username}`
+      return (this.author.user.firstName && this.author.user.lastName && `${this.author.user.firstName} ${this.author.user.lastName}`) || `${this.author.user.username}`
     },
   },
 }
