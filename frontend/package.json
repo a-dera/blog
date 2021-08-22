@@ -12,10 +12,10 @@
     "apollo:start": "vue-cli-service apollo:start"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "graphql-type-json": "^0.2.1",
+    "core-js": "3.16.2",
+    "graphql-type-json": "0.2.4",
     "vue": "^2.6.11",
-    "vue-apollo": "^3.0.0-beta.11",
+    "vue-apollo": "3.0.7",
     "vue-router": "^3.2.0"
   },
   "devDependencies": {
@@ -24,11 +24,11 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-graphql": "^2.1.1",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint": "6.8.0",
+    "eslint-plugin-graphql": "2.1.1",
+    "eslint-plugin-vue": "6.2.2",
     "graphql-tag": "^2.9.0",
-    "vue-cli-plugin-apollo": "~0.22.2",
+    "vue-cli-plugin-apollo": "0.22.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
