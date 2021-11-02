@@ -12,7 +12,7 @@
     "apollo:start": "vue-cli-service apollo:start"
   },
   "dependencies": {
-    "core-js": "3.19.0",
+    "core-js": "3.19.1",
     "graphql-type-json": "0.3.2",
     "vue": "2.6.14",
     "vue-apollo": "3.0.8",
