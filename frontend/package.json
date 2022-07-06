@@ -29,7 +29,7 @@
     "eslint-plugin-vue": "9.1.1",
     "graphql-tag": "2.12.6",
     "vue-cli-plugin-apollo": "0.22.2",
-    "vue-template-compiler": "2.7.2"
+    "vue-template-compiler": "2.7.3"
   },
   "eslintConfig": {
     "root": true,
